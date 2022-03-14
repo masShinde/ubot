@@ -1,0 +1,60 @@
+.intro-wrapper {
+  padding: 2rem;
+}
+
+.intro-div-header-wrapper,
+.intro-div-desc-wrapper {
+  display: flex;
+}
+
+.intro-div-header-wrapper {
+  justify-content: center;
+}
+.intro-div-desc-wrapper {
+  justify-content: center;
+}
+
+.intro-div-header-wrapper h1 {
+  font-size: 5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* letter-spacing: ; */
+  font-weight: bolder;
+  color: aliceblue;
+  margin: 0;
+}
+
+.intro-div-desc-wrapper h3 {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* letter-spacing: ; */
+  font-weight: bolder;
+  color: aliceblue;
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .intro-div-header-wrapper h1 {
+    font-size: 3.4rem;
+  }
+  .intro-div-desc-wrapper h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .intro-div-header-wrapper h1 {
+    font-size: 1.8rem;
+  }
+  .intro-div-desc-wrapper h3 {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .intro-div-header-wrapper h1 {
+    font-size: 2.8rem;
+  }
+  .intro-div-desc-wrapper h3 {
+    font-size: 1.2rem;
+  }
+}

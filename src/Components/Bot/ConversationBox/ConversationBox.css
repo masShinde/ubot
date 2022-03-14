@@ -1,0 +1,9 @@
+.message-wrapper {
+  display: flex;
+  flex: 1;
+  height: auto;
+  /* border: 1px solid black; */
+  word-wrap: break-word;
+  justify-content: flex-end;
+  padding: 5px;
+}

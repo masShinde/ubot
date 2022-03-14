@@ -1,0 +1,22 @@
+.user-message-wrapper {
+  width: auto;
+  max-width: 70%;
+  margin-left: auto;
+  background-color: aqua;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
+}
+.user-image {
+  display: flex;
+  width: 2rem;
+  align-items: flex-end;
+}
+
+.fa-user {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

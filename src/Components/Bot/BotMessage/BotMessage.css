@@ -1,0 +1,23 @@
+.bot-message-wrapper {
+  width: auto;
+  max-width: 70%;
+  margin-right: auto;
+  background-color: rgb(183, 0, 255);
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bot-image {
+  width: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.fa-robot {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
